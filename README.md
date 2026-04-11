@@ -1,1 +1,0 @@
-Static Vercel site. Upload files directly to repo root. No package.json, no build needed.
