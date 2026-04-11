@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BRN Performance</title>
+  <meta name="description" content="BRN Performance - performance software engineering" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container nav">
+      <div>
+        <div class="logo">BRN PERFORMANCE</div>
+        <div class="tagline">performance software engineering</div>
+      </div>
+      <nav class="menu">
+        <a href="#servicii">Servicii</a>
+        <a href="#catalog">Catalog</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container hero-grid">
+      <div>
+        <div class="pill">Bronze matte identity</div>
+        <h1>Design premium și <span>catalog de putere</span> pentru BRN Performance</h1>
+        <p>Versiune statică, stabilă, fără build și fără erori pe Vercel. După ce merge live, putem trece iar la varianta avansată.</p>
+        <div class="actions">
+          <a class="btn btn-primary" href="#catalog">Explorează catalogul</a>
+          <a class="btn btn-secondary" href="#contact">Contact</a>
+        </div>
+      </div>
+      <div class="hero-card">
+        <div class="stats">
+          <div class="stat"><small>Mărci</small><strong>5+</strong></div>
+          <div class="stat"><small>Format</small><strong>Stock / S1 / S2</strong></div>
+          <div class="stat"><small>Livrare</small><strong>Remote</strong></div>
+          <div class="stat"><small>Status</small><strong>Live-ready</strong></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="servicii" class="section">
+    <div class="container">
+      <div class="section-label">Servicii</div>
+      <h2>Structură comercială simplă și stabilă</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>Performance Software</h3>
+          <p>Stage 1, Stage 2 și soluții personalizate pentru benzină și diesel.</p>
+        </div>
+        <div class="card">
+          <h3>Power Lookup</h3>
+          <p>Catalog interactiv cu estimări pentru putere și cuplu.</p>
+        </div>
+        <div class="card">
+          <h3>Safe Setup</h3>
+          <p>Abordare orientată spre rezultate bune și setup-uri coerente.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="catalog" class="section section-dark">
+    <div class="container">
+      <div class="section-label">Power catalog</div>
+      <h2>Alege mașina și vezi estimarea</h2>
+      <div class="catalog-grid">
+        <div class="catalog-panel">
+          <div class="form-grid">
+            <div>
+              <label>Marcă</label>
+              <select id="brand"></select>
+            </div>
+            <div>
+              <label>Model</label>
+              <select id="model"></select>
+            </div>
+            <div>
+              <label>Motorizare</label>
+              <select id="engine"></select>
+            </div>
+          </div>
+
+          <div class="power-grid">
+            <div class="power-card">
+              <small>Stock</small>
+              <strong id="stockHp">- HP</strong>
+              <span id="stockNm">- Nm</span>
+            </div>
+            <div class="power-card accent">
+              <small>Stage 1</small>
+              <strong id="stage1Hp">- HP</strong>
+              <span id="stage1Nm">- Nm</span>
+            </div>
+            <div class="power-card accent-strong">
+              <small>Stage 2</small>
+              <strong id="stage2Hp">- HP</strong>
+              <span id="stage2Nm">- Nm</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="summary-panel">
+          <div class="section-label">Model selectat</div>
+          <h3 id="summaryTitle">-</h3>
+          <p>Motorizare: <span id="summaryEngine">-</span></p>
+          <div class="summary-lines">
+            <div id="lineStock">Stock: -</div>
+            <div id="lineStage1">Stage 1: -</div>
+            <div id="lineStage2">Stage 2: -</div>
+          </div>
+          <a class="btn btn-primary full" href="#contact">Cere ofertă</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <div class="container contact-grid">
+      <div>
+        <div class="section-label">Contact</div>
+        <h2>Pregătit pentru publicare</h2>
+        <p>După ce site-ul e live, schimbăm contactul real, extindem catalogul și facem versiunea premium completă.</p>
+      </div>
+      <div class="card">
+        <p><strong>Email:</strong> contact@brnperformance.com</p>
+        <p><strong>Instagram:</strong> @brnperformance</p>
+        <p><strong>WhatsApp:</strong> +40 7XX XXX XXX</p>
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
