@@ -1,0 +1,1 @@
+Upload all files in repo root and redeploy on Vercel.
