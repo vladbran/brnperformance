@@ -1,1 +1,0 @@
-Upload all files to repo root and redeploy.
